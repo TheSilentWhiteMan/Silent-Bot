@@ -246,7 +246,7 @@ async function handleAddCurrency(selectInteraction, rootInteraction, guild, clie
         .setStyle(TextInputStyle.Short)
         .setPlaceholder('100')
         .setMinLength(1)
-        .setMaxLength(10)
+        .setMaxLength(20)
         .setRequired(true);
 
     const typeInput = new TextInputBuilder()
